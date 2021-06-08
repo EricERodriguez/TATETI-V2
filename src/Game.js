@@ -1,5 +1,7 @@
 import React from 'react';
 import Board from './Board';
+//importo botstrap
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 
@@ -50,20 +52,20 @@ class Game extends React.Component {
 
       const moves = history.map((step, move) => {
         const desc = move ?
-          'Go to move #' + move :
-          'Go to game start';
+          'Movimiento: ' + move :
+          '<<<<Start>>>>>';
         return (
           <li key={move}>
-            <button onClick={() => this.jumpTo(move)}>{desc}</button>
+            <button type="button" class="btn btn-info" onClick={() => this.jumpTo(move)}>{desc}</button>
           </li>
         );
       });
 
       let status;
       if(winner) {
-        status = `Winner: ` + winner;
+        status = `El ganador es: ` + winner;
       }else{
-        status = `Next player: ` + (this.state.xIsNext ? `X` : `O`);
+        status = `Turno de: ` + (this.state.xIsNext ? `X` : `O`);
       }
 
 

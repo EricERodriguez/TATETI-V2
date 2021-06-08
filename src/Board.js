@@ -1,6 +1,7 @@
 import React from 'react';
 import Square from './Square';
-import Rows from './Rows';
+//importo botstrap
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 class Board extends React.Component {
 
@@ -14,14 +15,8 @@ class Board extends React.Component {
       );
     }
 
-
-//     render() {
-//         return (
-//           <Rows/>
-//         );
-// }
-
-render() {
+//Genera los 9 cuadros importando los botones del componente square
+  render() {
     return (
       <div>
         <div className="board-row">
