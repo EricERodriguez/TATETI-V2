@@ -13,7 +13,12 @@ Ejecutar el programa en un entorno local
 
 ### En la carpeta src se encuentra la imagen del mockup para arrancar el diseño del juego
 
-![Image text](https://github.com/EricERodriguez/TATETI-V2/blob/main/src/ta-te-ti.png)
 
 mockup.jpg
 
+<h1>Diseño MockUp :</h1>
+<img aling="right" src="https://github.com/EricERodriguez/TATETI-V2/blob/main/src/mockup.jpg?raw=true" width="100%" height=""  style="max-width-100%;">
+
+
+<h1>Diseño final :</h1>
+<img aling="right" src="https://github.com/EricERodriguez/TATETI-V2/blob/main/src/ta-te-ti.png?raw=true" width="100%" height=""  style="max-width-100%;">
