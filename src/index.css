@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
@@ -70,6 +70,7 @@ ol, ul {
   height: 140px;
   transition: all 1s ease-in-out;
 }
+/* Se hace el proceso para iteractividad y transformacion del juego */
 .square:hover{
   font-size: 260%;
   text-shadow: 10px 10px 10px 10px black ;
@@ -98,6 +99,7 @@ ol, ul {
   background-color: black;
   display: flex;
   height: 100%;
+  padding-bottom: 40px;
   color: rgb(0, 225, 255);
 }
 .game .btn{
@@ -146,18 +148,19 @@ ol, ul {
 
 .iconoreact{
   margin-left: 30px;
-  width: 3%;
+  width:3%;
   filter: drop-shadow(0 2px 6px rgba(34, 33, 33, 0.527));
 }
 
 .iconoeric{
   margin-left: 65%;
-  width: 3%;
+  width: 4%;
   filter: drop-shadow(0 2px 6px rgba(34, 33, 33, 0.527));
   border-radius: 50%;
 }
 
 .footer p{
+  font-family: 'Shadows Into Light', cursive;
   color: #ddd;
   font-size: 40px;
   filter: drop-shadow(0 8px 6px rgba(34, 33, 33, 0.527));
