@@ -1,7 +1,7 @@
 # TATETI-V2
- TATETI-V2 version mejorada
+ TATETI-V2 versión mejorada
 
- (Hice primero la prueba de esquelo sin diseño grafico, cree la segunda version para darle una mejor interfaz al usuario web)
+ (Hice primero la prueba de esqueleto sin diseño grafico, cree la segunda versión para darle una mejor interfaz al usuario web)
 
 ### Intalar bootstrap 4.1.1
 npm install react-bootstrap bootstrap@4.1.1
